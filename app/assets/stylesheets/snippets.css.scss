@@ -1,0 +1,17 @@
+.nw-snippet {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  min-height: 400px;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+}
+
+.new-snippet textarea {
+  resize: none;
+  width: 900px;
+  min-height: 400px;
+  padding: 20px;
+}

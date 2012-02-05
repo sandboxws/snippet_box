@@ -1,0 +1,11 @@
+<div class="row">
+  <% @snippets.each do |snippet| %>
+    <div class="snippet span12">
+      <h3><%= link_to snippet.share_url, snippet.share_url %></h3>
+      <pre class="prettyprint linenums"><%= snippet.content %></pre>
+    </div>
+  <% end %>
+  <div class="span12">
+    <%= paginate @snippets %>
+  </div>
+</div>
