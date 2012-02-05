@@ -10,6 +10,7 @@ gem 'app_box'
 gem 'kaminari'
 gem 'alphadecimal'
 gem 'heroku'
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production environments by default.
